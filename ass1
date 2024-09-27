@@ -1,0 +1,111 @@
+CREATE TABLE sales (
+    product_id INT,
+    date DATE,
+    revenue int
+);
+Insert into sales(product_id, date, revenue)
+Values
+(1,'2005-11-24',10000),
+(2,'2005-10-12',980),
+(3,'2005-06-21',8700),
+(4,'2006-02-02',6900),
+(5,'2004-11-21',3004);
+
+SELECT product_id, 
+SUM(revenue) AS total_revenue,
+MAX(date) AS most_recent_sale
+FROM sales
+GROUP BY product_id
+ORDER BY total_revenue DESC, 
+most_recent_sale DESC
+-----------------------
+CREATE TABLE employee_salary (
+    employee_id INT,
+    department_id int,
+    salary int
+);
+
+insert into employee_salary(employee_id,department_id,salary)
+values
+(1,2,10000),
+(2,3,980),
+(3,3,8700),
+(4,1,6900),
+(5,5,3004),
+(6,3,4900),
+(7,1,6800),
+(8,2,6000),
+(9,5,2900);
+
+SELECT department_id, 
+AVG(salary) AS avg_salary
+FROM employee_salary
+GROUP BY department_id
+ORDER BY avg_salary DESC;
+-----------------------
+
+create table monthly_sales(
+  year int,
+  month int, 
+  total_sales int,
+  region int
+);
+
+INSERT INTO monthly_sales (year, month, total_sales, region)
+VALUES
+(2023, 1, 10000, 'North'),
+(2023, 1, 15000, 'South'),
+(2023, 2, 12000, 'North'),
+(2023, 2, 18000, 'South'),
+(2024, 1, 20000, 'North'),
+(2024, 1, 25000, 'South'),
+(2024, 2, 22000, 'North'),
+(2024, 2, 27000, 'South');
+
+SELECT year, month, region, SUM(total_sales) AS total_sales
+FROM monthly_sales
+GROUP BY year, month, region
+ORDER BY year ASC, month ASC;
+
+-----------------------
+
+create table employees(
+  employee_id int, 
+  department_id int, 
+  salary int);
+
+INSERT INTO employees (employee_id, department_id, salary)
+VALUES
+(1, 1, 5000),
+(2, 2, 6000),
+(3, 1, 7000),
+(4, 3, 8000),
+(5, 2, 7500),
+(6, 3, 8500),
+(7, 1, 4000);
+
+create table departments(
+  department_id int, 
+  department_name char);
+
+INSERT INTO departments (department_id, department_name)
+VALUES
+(1, 'HR'),
+(2, 'Finance'),
+(3, 'Engineering');
+
+SELECT 
+    d.department_name, 
+    AVG(e.salary) AS average_salary
+FROM 
+    employees e
+INNER JOIN 
+    departments d 
+ON 
+    e.department_id = d.department_id
+GROUP BY 
+    d.department_name
+ORDER BY 
+    average_salary DESC;
+
+
