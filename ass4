@@ -183,12 +183,14 @@ SELECT Customer_type, COUNT(DISTINCT Invoice_ID) AS unique_customers
 FROM sales
 GROUP BY Customer_type;
 
-SELECT Product_line, AVG((Unit_price * Quantity) + Tax_5) AS average_revenue_per_purchase
-FROM sales
-GROUP BY Product_line;
-
 SELECT City, COUNT(*) AS transaction_count
 FROM sales
 GROUP BY City
 ORDER BY transaction_count DESC;
+
+SELECT Product_line, AVG((Unit_price * Quantity) + Tax_5) AS average_revenue_per_purchase
+FROM sales
+GROUP BY Product_line;
+
+
 
