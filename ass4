@@ -1,0 +1,193 @@
+CREATE TABLE sales (
+    Gender	VARCHAR(512),
+    Invoice_ID	VARCHAR(512),
+    Branch	VARCHAR(512),
+    City	VARCHAR(512),
+    Customer_type	VARCHAR(512),
+    Product_line	VARCHAR(512),
+    Unit_price	decimal,
+    Quantity	INT,
+    Tax_5	decimal
+);
+
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '750-67-8428', 'A', 'Yangon', 'Member', 'Health and beauty', '74.69', '7', '261.415');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '226-31-3081', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '15.28', '5', '3.82');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '355-53-5943', 'A', 'Yangon', 'Member', 'Electronic accessories', '68.84', '6', '20.652');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '315-22-5665', 'C', 'Naypyitaw', 'Normal', 'Home and lifestyle', '73.56', '10', '36.78');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '665-32-9167', 'A', 'Yangon', 'Member', 'Health and beauty', '36.26', '2', '3.626');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '692-92-5582', 'B', 'Mandalay', 'Member', 'Food and beverages', '54.84', '3', '8.226');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '351-62-0822', 'B', 'Mandalay', 'Member', 'Fashion accessories', '14.48', '4', '2.896');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '365-64-0515', 'A', 'Yangon', 'Normal', 'Electronic accessories', '46.95', '5', '11.7375');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '829-34-3910', 'A', 'Yangon', 'Normal', 'Health and beauty', '71.38', '10', '35.69');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '299-46-1805', 'B', 'Mandalay', 'Member', 'Sports and travel', '93.72', '6', '28.116');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '656-95-9349', 'A', 'Yangon', 'Member', 'Health and beauty', '68.93', '7', '241.255');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '319-50-3348', 'B', 'Mandalay', 'Normal', 'Home and lifestyle', '40.3', '2', '04.03');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '227-03-5010', 'A', 'Yangon', 'Member', 'Home and lifestyle', '52.59', '8', '21.036');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '189-17-4241', 'A', 'Yangon', 'Normal', 'Fashion accessories', '87.67', '2', '8.767');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '145-94-9061', 'B', 'Mandalay', 'Normal', 'Food and beverages', '88.36', '5', '22.09');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '183-56-6882', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '99.42', '4', '19.884');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '232-16-2483', 'C', 'Naypyitaw', 'Member', 'Sports and travel', '68.12', '1', '3.406');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '272-65-1806', 'A', 'Yangon', 'Normal', 'Electronic accessories', '60.88', '9', '27.396');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '333-73-7901', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '54.92', '8', '21.968');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '280-35-5823', 'B', 'Mandalay', 'Member', 'Home and lifestyle', '86.72', '1', '4.336');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '354-25-5821', 'B', 'Mandalay', 'Member', 'Sports and travel', '69.12', '6', '20.736');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '228-96-1411', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '98.7', '8', '39.48');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '132-32-9879', 'B', 'Mandalay', 'Member', 'Electronic accessories', '93.96', '4', '18.792');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '727-46-3608', 'B', 'Mandalay', 'Member', 'Food and beverages', '20.01', '9', '9.1945');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '574-22-5561', 'C', 'Naypyitaw', 'Member', 'Fashion accessories', '82.63', '10', '41.315');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '162-48-8011', 'A', 'Yangon', 'Member', 'Food and beverages', '44.59', '5', '11.1475');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '616-24-2851', 'B', 'Mandalay', 'Member', 'Fashion accessories', '17.87', '4', '3.574');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '399-46-5918', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '85.98', '8', '34.392');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '817-48-8732', 'A', 'Yangon', 'Member', 'Home and lifestyle', '72.35', '10', '36.175');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '285-68-5083', 'C', 'Naypyitaw', 'Member', 'Sports and travel', '24.74', '3', '3.711');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '347-34-2234', 'B', 'Mandalay', 'Member', 'Sports and travel', '55.07', '9', '247.815');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '838-78-4295', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '33.47', '2', '3.347');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '109-28-2512', 'B', 'Mandalay', 'Member', 'Fashion accessories', '97.61', '6', '29.283');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '382-03-4532', 'A', 'Yangon', 'Member', 'Health and beauty', '18.33', '1', '9.165');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '510-95-6347', 'B', 'Mandalay', 'Member', 'Food and beverages', '48.52', '3', '7.278');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '841-35-6630', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '75.91', '6', '22.773');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '732-94-0499', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '41.65', '10', '20.825');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '381-20-0914', 'A', 'Yangon', 'Member', 'Fashion accessories', '20.01', '9', '9.1945');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '829-49-1914', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '78.31', '10', '39.155');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '756-01-7507', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '20.38', '5', '5.095');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '870-72-4431', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '99.19', '6', '29.757');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '847-38-7188', 'B', 'Mandalay', 'Normal', 'Food and beverages', '96.68', '3', '14.502');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '787-56-0757', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '80.36', '4', '16.072');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '730-50-9884', 'C', 'Naypyitaw', 'Normal', 'Sports and travel', '83.06', '7', '29.071');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '318-68-5053', 'B', 'Mandalay', 'Normal', 'Health and beauty', '76.99', '6', '23.097');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '565-80-5980', 'C', 'Naypyitaw', 'Member', 'Home and lifestyle', '47.38', '4', '9.476');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '225-32-0908', 'C', 'Naypyitaw', 'Normal', 'Sports and travel', '44.86', '10', '22.43');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '873-51-0671', 'A', 'Yangon', 'Member', 'Sports and travel', '21.98', '7', '7.693');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '871-39-9221', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '12.45', '6', '3.735');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '551-21-3069', 'C', 'Naypyitaw', 'Normal', 'Electronic accessories', '23.07', '9', '10.3815');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '588-01-7461', 'C', 'Naypyitaw', 'Normal', 'Food and beverages', '33.98', '9', '15.291');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '479-26-8945', 'B', 'Mandalay', 'Member', 'Sports and travel', '16.49', '2', '1.649');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '210-67-5886', 'C', 'Naypyitaw', 'Member', 'Health and beauty', '98.21', '3', '147.315');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '227-78-1148', 'B', 'Mandalay', 'Normal', 'Fashion accessories', '72.84', '7', '25.494');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '237-01-6122', 'C', 'Naypyitaw', 'Member', 'Home and lifestyle', '80.79', '9', '363.555');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '225-98-1496', 'C', 'Naypyitaw', 'Normal', 'Fashion accessories', '27.02', '3', '4.053');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '642-32-2990', 'A', 'Yangon', 'Normal', 'Food and beverages', '10.96', '10', '5.48');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '638-60-7125', 'A', 'Yangon', 'Normal', 'Electronic accessories', '99.56', '8', '39.824');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '268-27-6179', 'B', 'Mandalay', 'Member', 'Fashion accessories', '56.47', '8', '22.588');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '668-90-8900', 'A', 'Yangon', 'Normal', 'Home and lifestyle', '93.69', '7', '327.915');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '870-54-3162', 'A', 'Yangon', 'Normal', 'Sports and travel', '32.25', '5', '8.0625');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '189-08-9157', 'C', 'Naypyitaw', 'Normal', 'Fashion accessories', '31.73', '9', '142.785');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '663-86-9076', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '68.54', '8', '27.416');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '549-84-7482', 'B', 'Mandalay', 'Normal', 'Sports and travel', '90.28', '9', '40.626');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '191-10-6171', 'B', 'Mandalay', 'Normal', 'Fashion accessories', '39.62', '7', '13.867');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '802-70-5316', 'A', 'Yangon', 'Member', 'Sports and travel', '92.13', '6', '27.639');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '695-51-0018', 'B', 'Mandalay', 'Normal', 'Sports and travel', '34.84', '4', '6.968');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '483-71-1164', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '81.3', '6', '24.39');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '700-81-1757', 'A', 'Yangon', 'Normal', 'Electronic accessories', '26.31', '5', '6.5775');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '354-39-5160', 'A', 'Yangon', 'Member', 'Home and lifestyle', '34.42', '6', '10.326');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '731-81-9469', 'C', 'Naypyitaw', 'Member', 'Sports and travel', '89.8', '10', '44.9');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '338-65-2210', 'C', 'Naypyitaw', 'Member', 'Health and beauty', '68.6', '10', '34.3');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '488-25-4221', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '30.41', '1', '1.5205');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '239-10-7476', 'A', 'Yangon', 'Normal', 'Home and lifestyle', '77.95', '6', '23.385');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '458-41-1477', 'C', 'Naypyitaw', 'Normal', 'Health and beauty', '46.26', '6', '13.878');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '685-64-1609', 'A', 'Yangon', 'Member', 'Fashion accessories', '30.14', '10', '15.07');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '608-96-3517', 'B', 'Mandalay', 'Member', 'Fashion accessories', '91.54', '4', '18.308');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '214-17-6927', 'C', 'Naypyitaw', 'Normal', 'Food and beverages', '16.48', '6', '4.944');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '400-89-4171', 'C', 'Naypyitaw', 'Normal', 'Sports and travel', '80.97', '8', '32.388');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '894-41-5205', 'C', 'Naypyitaw', 'Normal', 'Food and beverages', '43.18', '8', '17.272');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '139-52-2867', 'C', 'Naypyitaw', 'Normal', 'Fashion accessories', '22.51', '7', '7.8785');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '586-25-0848', 'A', 'Yangon', 'Normal', 'Sports and travel', '12.34', '7', '4.319');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '305-14-0245', 'B', 'Mandalay', 'Member', 'Home and lifestyle', '94.49', '8', '37.796');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '593-65-1552', 'C', 'Naypyitaw', 'Normal', 'Home and lifestyle', '69.81', '4', '13.962');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '284-34-9626', 'B', 'Mandalay', 'Normal', 'Home and lifestyle', '77.04', '3', '11.556');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '437-58-8131', 'B', 'Mandalay', 'Normal', 'Fashion accessories', '73.52', '2', '7.352');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '286-43-6208', 'C', 'Naypyitaw', 'Normal', 'Food and beverages', '87.8', '9', '39.51');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '556-86-3144', 'C', 'Naypyitaw', 'Member', 'Fashion accessories', '74.29', '1', '3.7145');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '856-22-8149', 'A', 'Yangon', 'Normal', 'Home and lifestyle', '25.29', '1', '1.2645');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '420-11-4919', 'C', 'Naypyitaw', 'Member', 'Food and beverages', '71.39', '5', '178.475');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '606-80-4905', 'C', 'Naypyitaw', 'Member', 'Sports and travel', '19.15', '6', '5.745');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '542-41-0513', 'B', 'Mandalay', 'Member', 'Electronic accessories', '57.49', '4', '11.498');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '749-24-1565', 'A', 'Yangon', 'Normal', 'Health and beauty', '23.03', '9', '10.3635');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '672-51-8681', 'C', 'Naypyitaw', 'Member', 'Electronic accessories', '66.65', '9', '299.925');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '263-87-5680', 'C', 'Naypyitaw', 'Member', 'Home and lifestyle', '28.53', '10', '14.265');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '573-58-9734', 'B', 'Mandalay', 'Normal', 'Fashion accessories', '30.37', '3', '4.5555');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '817-69-8206', 'B', 'Mandalay', 'Normal', 'Electronic accessories', '99.73', '9', '448.785');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '677-11-0152', 'C', 'Naypyitaw', 'Normal', 'Food and beverages', '93.26', '9', '41.967');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '891-58-8335', 'B', 'Mandalay', 'Member', 'Sports and travel', '29.61', '7', '10.3635');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '560-30-5617', 'B', 'Mandalay', 'Normal', 'Sports and travel', '24.77', '5', '6.1925');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '319-74-2561', 'A', 'Yangon', 'Member', 'Electronic accessories', '94.64', '3', '14.196');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '790-29-1172', 'B', 'Mandalay', 'Normal', 'Food and beverages', '57.34', '3', '8.601');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '279-62-1445', 'C', 'Naypyitaw', 'Member', 'Fashion accessories', '12.54', '1', '627');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '746-68-6593', 'C', 'Naypyitaw', 'Member', 'Sports and travel', '87.16', '2', '8.716');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '466-61-5506', 'B', 'Mandalay', 'Member', 'Electronic accessories', '90.7', '6', '27.21');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '721-86-6247', 'A', 'Yangon', 'Normal', 'Home and lifestyle', '63.42', '8', '25.368');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '289-65-5721', 'B', 'Mandalay', 'Normal', 'Fashion accessories', '81.37', '2', '8.137');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '545-46-3100', 'B', 'Mandalay', 'Member', 'Electronic accessories', '10.59', '3', '1.5885');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '418-02-5978', 'B', 'Mandalay', 'Normal', 'Health and beauty', '84.09', '9', '378.405');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '645-78-8093', 'A', 'Yangon', 'Normal', 'Sports and travel', '93.14', '2', '9.314');
+INSERT INTO sales (Gender, Invoice_ID, Branch, City, Customer_type, Product_line, Unit_price, Quantity, Tax_5) VALUES ('Female', '755-12-3214', 'C', 'Naypyitaw', 'Member', 'Fashion accessories', '44.22', '5', '11.055');
+
+
+SELECT SUM((Unit_price * Quantity) + Tax_5) AS total_revenue
+FROM sales;
+
+SELECT AVG(Unit_price) AS average_unit_price
+FROM sales;
+
+SELECT SUM(Quantity) AS total_quantity_sold
+FROM sales;
+
+SELECT AVG((Unit_price * Quantity) + Tax_5) AS average_invoice_amount
+FROM sales;
+
+SELECT Product_line, SUM(Quantity) AS total_quantity_sold
+FROM sales
+GROUP BY Product_line
+ORDER BY total_quantity_sold DESC;
+
+SELECT City, SUM((Unit_price * Quantity) + Tax_5) AS total_revenue
+FROM sales
+GROUP BY City
+ORDER BY total_revenue DESC;
+
+SELECT Branch, SUM((Unit_price * Quantity) + Tax_5) AS total_revenue
+FROM sales
+GROUP BY Branch
+ORDER BY total_revenue DESC;
+
+SELECT Customer_type, SUM((Unit_price * Quantity) + Tax_5) AS total_revenue
+FROM sales
+GROUP BY Customer_type;
+
+SELECT Customer_type, AVG(Quantity) AS average_quantity
+FROM sales
+GROUP BY Customer_type;
+
+SELECT MAX(Unit_price) AS max_unit_price, MIN(Unit_price) AS min_unit_price
+FROM sales;
+
+SELECT Product_line, AVG((Unit_price * Quantity) + Tax_5) AS average_revenue_per_purchase
+FROM sales
+GROUP BY Product_line;
+
+SELECT Product_line, 
+       SUM((Unit_price * Quantity) + Tax_5) AS total_revenue,
+       ROUND(SUM((Unit_price * Quantity) + Tax_5) * 100.0 / 
+       (SELECT SUM((Unit_price * Quantity) + Tax_5) FROM sales), 2) AS revenue_percentage
+FROM sales
+GROUP BY Product_line
+ORDER BY revenue_percentage DESC;
+
+SELECT City, SUM((Unit_price * Quantity) + Tax_5) AS total_revenue
+FROM sales
+GROUP BY City
+ORDER BY total_revenue DESC
+LIMIT 3;
+
+SELECT Customer_type, COUNT(DISTINCT Invoice_ID) AS unique_customers
+FROM sales
+GROUP BY Customer_type;
+
+SELECT City, COUNT(*) AS transaction_count
+FROM sales
+GROUP BY City
+ORDER BY transaction_count DESC;
+
+SELECT Product_line, AVG((Unit_price * Quantity) + Tax_5) AS average_revenue_per_purchase
+FROM sales
+GROUP BY Product_line;
